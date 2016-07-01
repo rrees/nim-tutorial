@@ -4,8 +4,8 @@ echo "What is your name?"
 let name = readLine(stdin)
 
 if name == "":
-  echo "Hello"
+    echo "Hello"
 elif name == "name":
-  echo "I see what you did there"
+    echo "I see what you did there"
 else:
-  echo "Hello, ", name
+    echo "Hello, ", name
